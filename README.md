@@ -21,19 +21,23 @@ Part 1, set up a Home Server
    OS iso files (Debian 8, Windows 7, SUSE 11.3, Oracle Linux 7, etc)
 ```
 3. Create bootable flash drive:
-   Tool: Rufus (the best tool to create bootable USB disk)
-   Use rufus to build ESXi 6.5 bootable USB disk.
+   ```
+   Tool: `Rufus` (the best tool to create bootable USB disk)
+   Use rufus to build `ESXi 6.5` bootable USB disk.
+   ```
    ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/Rufus.png)
 
 4. Install ESXi on the Server Box
+   ```
    During installation, REMEMBER the password otherwise we have to reinstall it.
+   ```
 
 5. Build VMs
-   -- Upload iso files into data center
-   -- Insert iso file into DVD drive
-   -- Install OS on VMs
+   1) Upload iso files into data center
+   2) Insert iso file into DVD drive
+   3) Install OS on VMs
 
-6. Configure Router -- Set up DDNS
+6. Configure Router -- **Set up DDNS**
    With two options NoIP and DynDNS, we choose NoIP because it's free right now.
    There are other DDNS service providers. Why to choose these two options? For better services.
    1) Login noip.com web site and set up your free domain. Renew it once/30 days;
@@ -41,5 +45,4 @@ Part 1, set up a Home Server
    3) In a Windows VM, download the little tool from NoIp web site, named DDNS Update Client (DUC);
         Setup DUC--login and choose the domain. This little software will update you Dynamic IP once/5 minutes
    
-7. Configure Router -- Port Forwarding
-      
+7. Configure Router -- **Port Forwarding**
