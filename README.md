@@ -40,10 +40,13 @@ Part 1, set up a Home Server
    With two options NoIP and DynDNS, we choose NoIP because it's free right now.  
    There are other DDNS service providers. Why to choose these two options? For better services.   
    1) Login noip.com web site and set up your free domain. Renew it once/30 days;
-   2) Fill up the same user name and password with NoIP on your router;
-   3) In a Windows VM, download the little tool from NoIp web site, named DDNS Update Client (DUC);
-        Setup DUC--login and choose the domain. This little software will update you Dynamic IP once/5 minutes
+   2) Fill up the same user name and password with NoIP on your router;  
    ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/DDNS.png)
+   3) In a Windows VM, download the little tool from NoIp web site, named DDNS Update Client (DUC);
+      Setup DUC--login and choose the domain. This little software will update you Dynamic IP once/5 minutes
+   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/DUC.png)
 
 7. Configure Router -- **Port Forwarding**  
    
+
+   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/PortForwarding.png)
