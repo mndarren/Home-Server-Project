@@ -37,9 +37,9 @@ Part 1, set up a Home Server
    ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/InstallVM.png)
 
 6. Configure Router -- **Set up DDNS**  
-   Why to do this?
+   Why to do this?  
    ISP only provides dynamic IP for our home internet.  
-   That means our home IP address will be changed usually. With DDNS, this problem is solved!  <br />
+   That means our home IP address will be changed usually. With DDNS, this problem is solved!<br /><br />
    With two options NoIP and DynDNS, we choose NoIP because it's free right now.  
    There are other DDNS service providers. Why to choose these two options? For better services.   
    1) Login noip.com web site and set up your free domain. Renew it once/30 days;
