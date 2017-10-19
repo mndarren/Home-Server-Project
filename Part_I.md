@@ -21,9 +21,9 @@
    During installation, REMEMBER the password otherwise we have to reinstall it.  
    ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/InstallESXi.png)  
    Note:  
-   1) Add hard drive in the server box if without hard drive in server.
+   1) Add `hard drive` in the server box if without hard drive in server.
    2) Connect router with server using internet wire.
-   3) Need a monitor and a keyboard to install ESXi. After installation, don't need them anymore.
+   3) Need a `monitor` and a `keyboard` to install ESXi. After installation, don't need them anymore.
    4) Remember the IP address since it will be used to remote the server.
 
 5. Build VMs
@@ -51,7 +51,7 @@
    With Port forwarding, this problem is solved!  
    ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/PortForwarding.png)
 
-8. Recommendation -- **TeamViewer**  
+8. Strong Recommendation -- **TeamViewer**  
    Why to do this?  
    Sometimes some of your settings gets failed. You couldn't access your VMs from outside your home network.  
    For example, if you forget to comfirm your NoIP, that happens.  
