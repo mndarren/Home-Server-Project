@@ -4,13 +4,14 @@
    ```
    Router version: NETGEAR N300 WiFi Cable Modem Router Model: C3000
    Server box version: Lenovo ThinkServer TS140 [No OS] Intel Core i3-4130 3.4GHz 8GB RAM No HDD Server 
-   ``` 
+   ```
 2. Software Preparation & Architecture:
    ```
    ESXi 6.5,
    OS iso files (Debian 8, Windows 7, SUSE 11.3, Oracle Linux 7, etc)
    ```
-   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/architecture.png)
+   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/architecture.png)  
+
 3. Create bootable flash drive:  
    Tool: `Rufus` (the best tool to create bootable USB disk)  
    Use rufus to build `ESXi 6.5` bootable USB disk.  
@@ -18,7 +19,12 @@
 
 4. Install ESXi on the Server Box  
    During installation, REMEMBER the password otherwise we have to reinstall it.  
-   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/InstallESXi.png)
+   ![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/InstallESXi.png)  
+   Note:  
+   1) Add hard drive in the server box if without hard drive in server.
+   2) Connect router with server using internet wire.
+   3) Need a monitor and a keyboard to install ESXi. After installation, don't need them anymore.
+   4) Remember the IP address since it will be used to remote the server.
 
 5. Build VMs
    1) Upload iso files into data center
