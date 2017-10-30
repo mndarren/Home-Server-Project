@@ -22,5 +22,5 @@
    3) Test the new network
          $ping www.google.com  #ping any web domain from gateway VM and zone inside VM
    ```
-![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/gateway_network.png)  
-![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/zone_network.png)
+![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/gateway_network.PNG)  
+![alt text](https://github.com/mndarren/Home-Server-Project/blob/master/resource/zone_network.PNG)
